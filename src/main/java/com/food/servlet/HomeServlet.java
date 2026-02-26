@@ -27,7 +27,7 @@ public class HomeServlet extends HttpServlet{
 		
 		req.setAttribute("resturants", allRestaurants);
 		
-		RequestDispatcher rd = req.getRequestDispatcher("Home.jsp");
+		RequestDispatcher rd = req.getRequestDispatcher("index.jsp");
 		rd.forward(req, resp);
 		
 	//	for(Restaurant restaurant : allRestaurants)
